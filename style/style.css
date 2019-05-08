@@ -185,6 +185,12 @@ span > span{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin-right: 22px;
+  margin-left: -1px;
+  word-spacing: 2px;
+}
+
+.mrg-2{
+  margin-right: -4px;
 }
 
 .burger{
@@ -196,17 +202,19 @@ span > span{
 
 .fa-angle-right{
   color: #fff;
-  margin-left: 26px;
+  margin-left: 20px;
 }
 
 .btm-hdr-p{
   color: #ECF0F1;
-  font-size: 13px;
-  letter-spacing: -1px;
-  word-spacing: 12px;
+  font-size: 14px;
+  /* letter-spacing: 0px; */
+  /* word-spacing: 0px; */
   font-family: 'Lato', sans-serif;
-  margin-left: 12px;
-  /* margin-right: 0px; */
+  font-weight: 300;
+  margin-left: 13px;
+  margin-right: 0px;
+  margin-top: 4px;
   cursor: pointer;
 }
 
@@ -227,14 +235,14 @@ span > span{
 }
 
 .news1{
-  margin-bottom: 84px;
+  margin-bottom: 85px;
 }
 
 .poster{
   width: 850px;
   height: 400px;
   background-color: #CCCCCC;
-  margin-bottom: 24px;
+  margin-bottom: 23px;
 }
 
 .news1 h2{
@@ -273,7 +281,7 @@ span > span{
   color: #A1B1BC;
   font-family: 'Lato', sans-serif;
   line-height: 24px;
-  margin-bottom: 38px;
+  margin-bottom: 39px;
   max-width: 850px;
 }
 
@@ -371,7 +379,7 @@ span > span{
   color: #2C3E50;
   font-size: 30px;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .poster-text span{
@@ -396,8 +404,8 @@ span > span{
   color: #2C3E50;
   font-size: 30px;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 13px;
-  margin-top: 30px;
+  margin-bottom: 9px;
+  margin-top: 31px;
 }
 
 .article4 div iframe{
@@ -611,6 +619,7 @@ span > span{
   margin-bottom: 5px;
   margin-right: 3px;
   letter-spacing: 0px;
+  border-radius: 5px;
 }
 
 .tags-wrapper p:hover{
@@ -645,6 +654,7 @@ span > span{
   height: 40px;
   background-color: #CCCCCC;
   margin-right: 20px;
+  margin-top: 1px;
 }
 
 .comment-author p{
@@ -711,7 +721,7 @@ margin-bottom: 10px;
 }
 
 .refresh{
-  margin-top: -14px;
+  margin-top: -16px;
 }
 
 .fa-refresh{
@@ -726,8 +736,8 @@ margin-bottom: 10px;
 footer{
   background-color: #1A1C27;
   width: 100%;
-  padding: 85px 0 95px;  
-  border-bottom: 1px solid #2B2E3C;
+  padding: 85px 0 95px;
+  border-bottom: 0px solid #2B2E3C;
   border-top: 1px solid #2B2E3C;
 }
 
@@ -754,12 +764,14 @@ footer{
   color: #A1B1BC;
   font-size: 14px;
   line-height: 24px;
-  word-spacing: 2px;
+  word-spacing: 4px;
+  /* letter-spacing: 0px; */
 }
 
 .footer-col1 p:first-of-type{
   margin-bottom: 25px;
-  word-spacing: 2px;
+  word-spacing: 0px;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -796,7 +808,9 @@ footer{
   background-color: #262837;
   width: 270px;
   height: 1px;
-  margin: 16px 0;
+  /* margin: 17px 0; */
+  margin-top: 17px;
+  margin-bottom: 15px;
 }
 
 .posts-title{
@@ -838,7 +852,7 @@ footer{
 .fa-send{
   font-size: 24px;
   color: #A1B1BC;
-  margin-right: 20px;
+  margin-left: 3px;
   margin-top: -12px;
 }
 
@@ -855,6 +869,7 @@ footer{
   margin-bottom: 4px;
   margin-top: -3px;
   margin-left: -63px;
+  word-spacing: -1px;
 }
 
 .send-time p{
@@ -876,6 +891,7 @@ footer{
   margin-bottom: 4px;
   margin-top: -3px;
   margin-left: -63px;
+  word-spacing: -1px;
 }
 
 .send-time2 p{
@@ -920,8 +936,8 @@ footer{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 46px;
-  margin-top: 13px;
+  margin-bottom: 49px;
+  margin-top: 8px;
 }
 
 .footer-col4 h5::before{
@@ -932,7 +948,7 @@ footer{
   height: 18px;
   margin-right: 20px;
   margin-left: 5px;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 /* footer-end */
@@ -940,14 +956,14 @@ footer{
 .footer-end{
   width: 100%;
   background-color: #222533;
-  padding: 24px 0;
+  padding: 23px 0;
 }
 
 .footnote{
   color: #A1B1BC;
   font-size: 12px;
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  /* font-weight: 200; */
   letter-spacing: 0px;
   word-spacing: -1px;
 }
@@ -962,9 +978,15 @@ footer{
   background-color: #2C3E50;
   width: 1px;
   height: 13px;
-  margin: 0 7px;
+  /* margin: 0px 6px; */
+  margin-left: 6px;
+  margin-right: 9px;
 }
 
 .footnote h3:last-child::after{
   display: none;
+}
+
+.footnote h3:nth-child(2)::after{
+  margin-right: 2px;
 }
